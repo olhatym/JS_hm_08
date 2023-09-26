@@ -37,7 +37,7 @@ const form = document.querySelector('.feedback-form');
 const KEY_INPUT = "feedback-form-state";
 
 
-form.addEventListener("input", throttle(onInput, 1000));
+form.addEventListener("input", throttle(onInput, 500));
 form.addEventListener("submit", onSubmit);
 // console.dir(form)
 
